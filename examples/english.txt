@@ -1,0 +1,18 @@
+Cmat: comp, {T}}
+Cwh: comp, int, <whq, m>, {T}
+Crel: n, comp, nom, {T}
+Csub: comp, arg, {T}
+T: <phi, m>, {V, Copadj}
+V: v, cat, {Csub, D, Dwh}
+Copadj: v, {A}
+D: n, arg, {Crel, φ}
+Dwh: n, arg, wh, whq, {Crel, φ}
+only: invis, excl, {D}
+OpCR: invis, {φ, N}
+φ: n, nom, phi, low, {noun}, {N}
+ind: n
+N: n, cat, noun, low
+A: cat
+Focfeat: invis, foc, feat, {Cmat, Cwh, Crel, Csub, T, V, Copadj, D, Dwh, only, OpCR, φ, ind, N, A, Focfeat}
+
+prominence = n, v, cat, noun, comp, arg, wh, whq, nom, phi, int, invis, excl, feat, foc, low

@@ -1,0 +1,26 @@
+Cmat: comp, {Focphon2, T}
+Cwh: comp, int, {Degwh, Qmedial, Qfinal2}
+Csub: comp, arg, c, {T}
+Crel: n, comp, nom, c, {T}
+Degwh: q, whop, <deg, m>, {Qfinal2}
+Opwhemph: invis, whop, {Qfinal2}
+Focphon2: phon, a, <sc, m>, {Focphon1}
+Focphon1: phon, <foc, m>, {SCRQ}
+Qmedial: q, c, {T}
+Qfinal2: q, final, <t, m>, {Qfinal1}
+Qfinal1: final, c, <whq, m>, {T}
+T: a, t, {phi}, {V, Copadj}
+V: v, cat, {Csub, D, Dwh}
+Copadj: v, {A}
+SCRQ: sc
+D: n, arg, {Crel, φ}
+Dwh: n, arg, wh, whq, {Crel, φ}
+THAT'S-IT: invis, excl, fin, {D}
+φ: n, nom, phi, {noun}, {N}
+ind: n
+N: n, cat, noun
+A: cat
+Focfeat: invis, feat, focus, foc, {Cmat, Cwh, Csub, Crel, Degwh, Opwhemph, Focphon2, Focphon1, Qmedial, Qfinal2, Qfinal1, T, V, Copadj, SCRQ, D, Dwh, THAT'S-IT, φ, ind, N, A, Focfeat, Degfeat}
+Degfeat: invis, feat, deg, {Cmat, Cwh, Csub, Crel, Degwh, Opwhemph, Focphon2, Focphon1, Qmedial, Qfinal2, Qfinal1, T, V, Copadj, SCRQ, D, Dwh, THAT'S-IT, φ, ind, N, A, Focfeat, Degfeat}
+
+prominence = n, v, cat, noun, comp, arg, wh, whq, nom, phi, int, invis, excl, feat, focus, foc, deg, q, final, phon, whop, a, t, c, sc, fin

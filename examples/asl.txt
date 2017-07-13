@@ -1,0 +1,26 @@
+Cmat: comp, {Deg, Focphon, T}
+Cwh: comp, int, {Degwh, Qinitial, Qmedial, Qfinal2}
+Csub: comp, arg, c, {T}
+Crel: n, comp, nom, c, {T}
+Deg: degr, c, <foc, m>, <deg, m>, {T}
+Degwh: q, degr, <deg, m>, {Qinitial}
+Opemph: invis, {Qinitial, T}
+Focphon: phon, c, <foc, m>, {T}
+Qinitial: q, e, b, c, <whq, m>, {T}
+Qmedial: q, c, {T}
+Qfinal2: q, final, <t, m>, {Qfinal1}
+Qfinal1: final, e, c, <whq, m>, {T}
+T: t, b, {phi}, {V, Copadj}
+V: v, cat, {Csub, D, Dwh}
+Copadj: v, {A}
+D: n, arg, {Crel, φ}
+Dwh: n, arg, wh, whq, {Crel, φ}
+ONLY-ONE: invis, excl, {D}
+φ: n, nom, phi, {noun}, {N}
+ind: n
+N: n, cat, noun
+A: cat
+Focfeat: invis, feat, focus, foc, {Cmat, Cwh, Csub, Crel, Deg, Degwh, Opemph, Focphon, Qinitial, Qmedial, Qfinal2, Qfinal1, T, V, Copadj, D, Dwh, ONLY-ONE, φ, ind, N, A, Focfeat, Degfeat}
+Degfeat: invis, feat, deg, {Cmat, Cwh, Csub, Crel, Deg, Degwh, Opemph, Focphon, Qinitial, Qmedial, Qfinal2, Qfinal1, T, V, Copadj, D, Dwh, ONLY-ONE, φ, ind, N, A, Focfeat, Degfeat}
+
+prominence = n, v, cat, noun, comp, arg, wh, whq, nom, phi, int, invis, excl, feat, focus, foc, deg, q, final, phon, degr, t, e, b, c, d, sub, z

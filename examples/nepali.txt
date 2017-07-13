@@ -1,0 +1,19 @@
+OpNAI: fin, invis, {OpNAI, Cmat, Cwh, Crel, Csub, T, D, Dwh, mātrai, φ, ind, N, A, Focfeat, Degfeat}
+Cmat: fin, comp, {T}
+Cwh: fin, comp, int, {whq}, {T}
+Crel: fin, n, comp, nom, {T}
+Csub: fin, comp, arg, {T}
+T: fin, {phi}, {V, Copadj}
+V: fin, v, cat, {Csub, D, Dwh}
+Copadj: fin, v, {A}
+D: fin, n, arg, {Crel, φ}
+Dwh: fin, n, arg, wh, whq, {Crel, φ}
+mātrai: fin, invis, excl, {D}
+φ: fin, n, nom, phi, {noun}, {N}
+ind: fin, n
+N: fin, n, cat, noun
+A: fin, cat
+Focfeat: fin, invis, feat, focus, foc, {OpNAI, Cmat, Cwh, Crel, Csub, T, V, Copadj, D, Dwh, mātrai, φ, ind, N, A, Focfeat, Degfeat}
+Degfeat: fin, invis, feat, deg, {OpNAI, Cmat, Cwh, Crel, Csub, T, V, Copadj, D, Dwh, mātrai, φ, ind, N, A, Focfeat, Degfeat}
+
+prominence = fin, v, n, cat, noun, comp, arg, wh, whq, nom, phi, int, invis, excl, feat, focus, foc, deg
