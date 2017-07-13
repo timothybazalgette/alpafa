@@ -21,7 +21,7 @@ Links
 
 * AAFP: http://ling.auf.net/lingbuzz/003006
 * ReCoS project: http://recos-dtal.mml.cam.ac.uk/
-* Github: https://www.github.com/timbazalgette/alpafa
+* Github: https://www.github.com/timothybazalgette/alpafa
 * PyPI: https://pypi.python.org/pypi/alpafa
 
 Installation

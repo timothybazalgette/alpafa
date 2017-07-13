@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='ALPAFA',
-    version='0.1',
+    version='0.2',
     packages=find_packages(),
     entry_points={'console_scripts': ['alpafa=alpafa.cli:main']},
     platforms='any',
@@ -13,7 +13,7 @@ setup(
     long_description=open('README.rst').read(),
     license='MIT',
     keywords='parameters lexicocentrism recos features linguistics',
-    url='https://www.github.com/timbazalgette/alpafa',
+    url='https://www.github.com/timothybazalgette/alpafa',
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Environment :: Console',
