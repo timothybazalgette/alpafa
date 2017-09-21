@@ -65,7 +65,7 @@ of English is as follows::
 Included with the source code are example input files for the 6 toy fragment grammars in AAFP
 chapter 10.
 
-Ouput
+Output
 =====
 
 ALPAFA defaults to outputting a list of the heads with their categorial and dependent features,
