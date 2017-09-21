@@ -29,7 +29,7 @@ def set_args():
     if args.dependents:
         args.cats = True
 
-    return(args.input_file, args.output_file, args.uf, args.cselect, args.log, args.cats,
+    return (args.input_file, args.output_file, args.uf, args.cselect, args.log, args.cats,
            args.dependents)
 
 def run_alpafa(input_file, output_file, uf, cselect, log, cats, dependents):
